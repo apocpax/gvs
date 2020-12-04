@@ -10,3 +10,7 @@ once you login you will be able to add, edit, and request vinyls. hoveever if yo
 
 [Trello](https://trello.com/b/0CG6oaNa/to-do);
 [Vinyl Shuffle](https://vinyl-shuffle.herokuapp.com/)
+
+NEXT STEPS
+adding music and photos,
+add a search function for vinyls
