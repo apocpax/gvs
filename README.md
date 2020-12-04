@@ -8,4 +8,4 @@ once you login you will be able to add, edit, and request vinyls. hoveever if yo
 <a href="https://imgur.com/rYIg5DS"><img src="https://i.imgur.com/rYIg5DS.png" title="source: imgur.com" /></a>
 <a href="https://imgur.com/Xy23jvU"><img src="https://i.imgur.com/Xy23jvU.png" title="source: imgur.com" /></a>
 
-<a href="https://trello.com/b/0CG6oaNa/to-do"></a>
+[Trello](https://trello.com/b/0CG6oaNa/to-do)
