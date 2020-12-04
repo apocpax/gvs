@@ -35,13 +35,13 @@
     <form action="/vinyls/<%= vinyl.id %>?_method=PUT" method="POST" autocomplete="off">
 
         <label>Title:
-        <input type="text" name="title">
+        <input type="text" name="title" value=<%= vinyl.title %>>
         </label><br>
         <label> Release Year:
-        <input type="text" name="releaseYear">
+        <input type="text" name="releaseYear" value=<%= vinyl.releaseYear %>>
         </label><br>
         <label>Band:
-        <input type="text" name="band">
+        <input type="text" name="band" value=<%= vinyl.band %>>
         </label><br>
         <button type="submit">Update vinyl</button>
 
