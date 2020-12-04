@@ -6,10 +6,10 @@ const vinylsCtrl = require('../controllers/vinyls');
 router.get('/new', isLoggedIn, vinylsCtrl.new);
 router.post('/', vinylsCtrl.create);
 router.get('/', vinylsCtrl.index);
-router.get('/:id', vinylsCtrl.show);
+router.get('/:id', isLoggedIn, vinylsCtrl.show);
 router.delete('/:id', isLoggedIn, vinylsCtrl.delete);
 router.get('/:id/edit', isLoggedIn, vinylsCtrl.edit);
-router.put('/:id', vinylsCtrl.update);
+router.put('/:id', isLoggedIn, vinylsCtrl.update);
 router.get('/:id/review', isLoggedIn, vinylsCtrl.index)
 router.post('/facts', isLoggedIn, vinylsCtrl.addFact);
 
